@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Kanit', sans-serif;
+}
+
+
+.swiper-button-next, .swiper-button-prev{
+  color: black !important;
+  font-weight: 700 !important;
+}
+
+.swiper-button-next {
+  right:  4rem !important;
+}
+
+.swiper-button-next::after {
+  font-size: 60px;
+}
+
+.swiper-button-prev {
+  left:  4rem !important;
+}
+
+.swiper-button-prev::after {
+  font-size: 60px;
+}
+
+.swiper-pagination{
+  bottom: 1.5rem !important;
+}
+
+.swiper-pagination  .swiper-pagination-bullet{
+  background: transparent;
+  border: 1px solid black;
+  opacity: 1;
+  width: 10px;
+  height: 10px;
+}
+
+.swiper-pagination  .swiper-pagination-bullet-active{
+  background-color: black;
+}
