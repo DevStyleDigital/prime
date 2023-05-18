@@ -10,7 +10,8 @@ export const HeaderStyle = styled.header`
     align-items: center;
     top: 0;
     left: 0;
-    z-index: 999;
+    z-index: 60;
+    box-shadow: 0 0px 10px black;
     .buttons {
         display: flex;
         align-items: center;

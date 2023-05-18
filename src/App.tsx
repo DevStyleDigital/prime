@@ -1,6 +1,7 @@
 import Header from "./components/header"
 import Hero from "./components/hero"
 import Revisao from "./components/sections/revisao"
+import ServiceSection from "./components/sections/servicos";
 
  export const customStyles = {
   content: {
@@ -19,6 +20,7 @@ function App() {
       <Header />
       <Hero />
       <Revisao />
+      <ServiceSection />
     </>
   )
 }

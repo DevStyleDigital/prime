@@ -34,8 +34,8 @@ export const RevisaoStyle = styled.section`
                 height: 100%;
                 border-radius: 30px;
             }
-
             .content {
+                padding: 2rem 0;
                 width: 100%;
                 height: 100%;
                 position: absolute;
@@ -48,9 +48,8 @@ export const RevisaoStyle = styled.section`
                 align-items: center;
                 z-index: 9;
                 .header{
-                    font-size: 1rem;
-                    color: black;
                     h1{
+                        font-size: 2rem;
                         color: black;
                     }
                 }
@@ -74,11 +73,36 @@ export const RevisaoStyle = styled.section`
                     transition: all .5s;
                 }
             }
-
             &:hover button{
                 transform: scale(1.05);
             }
         }
+        @media (max-width: 768px) {
+            height: 70%;
+            width: 70%;
+            flex-direction: column;
+            align-items: center;
+            gap: 3rem;
+            .card{
+                width: 90%;
+            }
+        }
+
+        @media (max-width: 600px) {
+            height: 100%;
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+            gap: 3rem;
+            .card{
+                width: 90%;
+            }
+        }   
+    }
+
+    @media (max-width: 600px) {
+        gap: 1.5rem;
+        padding: 2rem 0;
     }
 
 `
