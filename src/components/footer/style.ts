@@ -14,32 +14,32 @@ export const FooterStyle = styled.section`
     justify-content: space-between;
     align-items: center;
     .logo {
+      display: flex;
+      padding: 0 2rem;
+      align-items: center;
+      gap: 2rem;
+      .text {
         display: flex;
-        padding: 0 2rem;
-        align-items: center;
-        gap: 2rem;
-        .text {
-            display: flex;
-            flex-direction: column;
-            gap: .5rem;
-            span{
-                width: 100%;
-                color:#efd500;
-                font-weight: 400;
-                @media (max-width: 870px) {
-                    text-align: center;
-                }
-            }
-            h1 {
-                color:#efd500;
-                @media (max-width: 870px) {
-                    text-align: center;
-                }
-            }
+        flex-direction: column;
+        gap: 0.5rem;
+        span {
+          width: 100%;
+          color: #efd500;
+          font-weight: 400;
+          @media (max-width: 870px) {
+            text-align: center;
+          }
         }
-        @media (max-width: 870px) {
-            flex-direction: column;
+        h1 {
+          color: #efd500;
+          @media (max-width: 870px) {
+            text-align: center;
+          }
         }
+      }
+      @media (max-width: 870px) {
+        flex-direction: column;
+      }
     }
     .icons {
       position: relative;
@@ -84,21 +84,21 @@ export const FooterStyle = styled.section`
           cursor: pointer;
         }
         @media (max-width: 870px) {
-            flex-direction: column;
+          flex-direction: column;
         }
       }
-      
-        @media (max-width: 870px) {
-            flex-direction: column;
-            .pattern{
-                display: none;
-            }
+
+      @media (max-width: 870px) {
+        flex-direction: column;
+        .pattern {
+          display: none;
         }
+      }
     }
     @media (max-width: 870px) {
-        flex-direction: column;
-        padding: 2rem;
-        gap: 2rem;
+      flex-direction: column;
+      padding: 2rem;
+      gap: 2rem;
     }
   }
   .credit {
