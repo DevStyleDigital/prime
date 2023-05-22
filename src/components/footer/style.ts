@@ -50,6 +50,7 @@ export const FooterStyle = styled.section`
         gap: 1rem;
         .whatsapp {
           text-transform: uppercase;
+          text-decoration: none;
           color: #efd500;
           background-color: transparent;
           font-weight: 600;

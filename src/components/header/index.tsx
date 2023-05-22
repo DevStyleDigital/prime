@@ -9,7 +9,7 @@ const Header = () => {
         <HeaderStyle>
             <img src={Logo} alt="logo" />
             <div className="buttons">
-                <a className="whatsapp">
+                <a className="whatsapp" href="https://api.whatsapp.com/send?phone=5515991343172">
                     <WhatsappIcon />
                     Compre pelo Whatsapp
                 </a>

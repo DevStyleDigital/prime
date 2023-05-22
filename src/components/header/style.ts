@@ -20,6 +20,7 @@ export const HeaderStyle = styled.header`
     .whatsapp {
       text-transform: uppercase;
       color: #efd500;
+      text-decoration: none;
       background-color: transparent;
       font-weight: 600;
       padding: 0.6rem 1.5rem;
