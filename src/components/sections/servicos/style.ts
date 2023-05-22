@@ -108,8 +108,12 @@ export const ServiceStyle = styled.section`
                 width: 90%;
             } 
         }
-        @media(max-width: 1440px){
+        @media(max-width: 1700px){
             width: 85%;
+        }
+
+        @media(max-width: 1240px){
+            width: 95%;
         }
         @media (max-width: 880px) {
             width: 95%;
