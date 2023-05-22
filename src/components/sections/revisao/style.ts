@@ -11,20 +11,23 @@ export const RevisaoStyle = styled.section`
     align-items: center;
     gap: 3rem;
     position: relative;
+    z-index: 1;
     h1{
         font-weight: 700;
         font-size: 40px;
         color: #EFD500;
+        text-transform: uppercase;
     }
     .tipos{ 
         width: 70%;
-        height: 400px;
+        height: fit-content;
+        min-height: 400px;
         display: flex;
         justify-content: space-between;
         gap: 6rem;
         .card{
             width: 50%;
-            height: 100%;
+            height: auto;
             background-color: #EFD500;
             border-radius: 30px;
             position: relative;
@@ -46,11 +49,18 @@ export const RevisaoStyle = styled.section`
                 flex-direction: column;
                 justify-content: space-evenly;
                 align-items: center;
+                gap: 1rem;
                 z-index: 9;
                 .header{
                     h1{
                         font-size: 2rem;
                         color: black;
+                        @media (max-width: 600px) {
+                            font-size: 1.5rem;
+                        }
+                        @media (max-width: 320px) {
+                            font-size: 1rem;
+                        }
                     }
                 }
                 .moto {
@@ -71,13 +81,20 @@ export const RevisaoStyle = styled.section`
                     font-family: 'Kanit', sans-serif;
                     cursor: pointer;
                     transition: all .5s;
+                    @media (max-width: 600px) {
+                        padding: .2rem 1.5rem;
+                        font-size: 1rem;
+                    }
+                    @media (max-width: 320px) {
+                            font-size: .7rem;
+                    }
                 }
             }
             &:hover button{
                 transform: scale(1.05);
             }
         }
-        @media (max-width: 768px) {
+        @media (max-width: 900px) {
             height: 70%;
             width: 70%;
             flex-direction: column;
@@ -90,19 +107,21 @@ export const RevisaoStyle = styled.section`
 
         @media (max-width: 600px) {
             height: 100%;
-            width: 100%;
+            width: fit-content;
             flex-direction: column;
             align-items: center;
-            gap: 3rem;
+            min-height: initial;
+            gap: 2rem;
             .card{
                 width: 90%;
+                height: fit-content;
             }
         }   
     }
 
     @media (max-width: 600px) {
         gap: 1.5rem;
-        padding: 2rem 0;
+        padding: 2rem 0 0 0;
     }
 
 `

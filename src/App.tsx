@@ -1,7 +1,12 @@
+import Footer from "./components/footer";
 import Header from "./components/header"
 import Hero from "./components/hero"
+import Acessorios from "./components/sections/acessorios";
+import Institucional from "./components/sections/institucional";
+import Mapa from "./components/sections/mapa";
 import Revisao from "./components/sections/revisao"
 import ServiceSection from "./components/sections/servicos";
+import Video from "./components/sections/video";
 
  export const customStyles = {
   content: {
@@ -21,6 +26,11 @@ function App() {
       <Hero />
       <Revisao />
       <ServiceSection />
+      <Acessorios />
+      <Institucional />
+      <Video />
+      <Mapa />
+      <Footer />
     </>
   )
 }

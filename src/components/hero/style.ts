@@ -2,17 +2,18 @@ import { styled } from "styled-components";
 
 export const HeroStyle = styled.section`
     width: 100%;
-    height: fit-content;
+    height: 70vh;
     background-color: #1F1F1F;
-    margin-top: 109px;
+    box-shadow: 0 0px 10px black;
+    position: relative;
+    z-index: 9;
     .mySwiper {
         width: 100%;
         height: 100%;
         img{
             width: 100%;
             height: 100%;
-            object-fit: contain;
-            box-shadow: 0 0px 10px black;
+            object-fit: cover;
         }
     }
 `

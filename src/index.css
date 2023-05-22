@@ -7,6 +7,9 @@ body {
   font-family: 'Kanit', sans-serif;
 }
 
+img {
+  display: block;
+}
 
 .swiper-button-next, .swiper-button-prev{
   color: black !important;
@@ -27,6 +30,24 @@ body {
 
 .swiper-button-prev::after {
   font-size: 60px;
+}
+
+@media (max-width: 600px) {
+  
+  .swiper-button-next::after {
+    font-size: 40px;
+  }
+  .swiper-button-next {
+    right:  2rem !important;
+  }
+
+  .swiper-button-prev::after {
+    font-size: 40px;
+  }
+  
+  .swiper-button-prev {
+    left:  2rem !important;
+  }
 }
 
 .swiper-pagination{

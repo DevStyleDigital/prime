@@ -4,8 +4,9 @@ export const HeaderStyle = styled.header`
     width: 100%;
     padding: 1rem 4rem;
     background: linear-gradient(180deg, #1F1F1F 0%, #000000 95.54%);
-    position: fixed;
     display: flex;
+    position: relative;
+    z-index: 9;
     justify-content: space-between;
     align-items: center;
     top: 0;
@@ -40,6 +41,26 @@ export const HeaderStyle = styled.header`
                     fill: #000000;
                 }
             }
+            @media (max-width: 550px){
+                font-size: .7rem;
+                padding: .6rem .8rem;
+                border-radius: 10px;
+            }
+            @media (max-width: 375px){
+                font-size: .7rem;
+                padding: .5rem .7rem;
+            }
+            @media (max-width: 360px){
+                font-size: .6rem;
+                padding: .2rem .4rem;
+                border-radius: 7px;
+                svg{
+                    transform: scale(0.7);
+                }
+            }
+            @media (max-width: 320px){
+                font-size: .5rem;
+            }
         }
         .icon{
             transition: all .5s;
@@ -51,5 +72,8 @@ export const HeaderStyle = styled.header`
         svg{
             cursor: pointer;
         }
+    }
+    @media (max-width: 550px){
+        padding: 1rem 1rem;
     }
 `

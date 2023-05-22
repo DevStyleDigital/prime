@@ -8,7 +8,7 @@ interface ModalProps {
   setIsModalOpen: any,
   aria: string,
   icon?: React.ReactNode, 
-  name: string,
+  name: React.ReactNode,
   texto: React.ReactNode,
 }
 const ModalContent = ({ isModalOpen, setIsModalOpen, aria, icon, name, texto }: ModalProps) => {

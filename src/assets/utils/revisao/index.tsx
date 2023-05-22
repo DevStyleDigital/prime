@@ -1,12 +1,12 @@
-import { iService } from "../../../types/revisao";
+import { iRevisao } from "../../../types/revisao";
 import MotoBase from '../../img/moto-1.png'
 import MotoPremium from '../../img/moto-2.png'
-export const ServicosArray: iService[] = [
+export const ServicosArray: iRevisao[] = [
     {
         id: 1,
         name: 'Revisão Básica',
         image: MotoBase,
-        text: <ul>
+        texto: <ul>
             <li>- Limpeza de bico de injeção (injetadas) ou limpeza carburador (carburadas)</li>
             <li>- Regulagem de válvulas (exceto pastilhada)</li>
             <li>- Lubrificação de comandos (punho de luz/ descansos/ botão de buzina/ pisca) e cabos</li>
@@ -19,7 +19,7 @@ export const ServicosArray: iService[] = [
         id: 2,
         name: 'Revisão Premium',
         image: MotoPremium,
-        text: 
+        texto: 
         <div>
             <h1>REVISÃO (PREMIUM) – 200/300 – INJETADA – MÃO DE OBRA</h1>
             <ul>

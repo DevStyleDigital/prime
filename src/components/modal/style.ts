@@ -22,44 +22,69 @@ export const ModalStyle = styled.div`
         left: 50%;
         transform: translate(-50%, -50%);
         width: 40%;
-        height: 52%;
+        height: fit-content;
         background-color: #EFD500;
         border-radius: 30px;
         .content{
             width:100%;
-            height: 100%;
+            min-height: fit-content;
             position: relative;
             img{
                 width: 100%;
                 height: 100%;
                 border-radius: 30px;
-            }
-            .container{
                 top:0;
                 left: 0;
                 position: absolute;
+            }
+            .container{
+                position: relative;
                 width: 100%;
-                height: 100%;
+                height: auto;
                 .containerCard{
                     width: 100%;
                     height: 100%;
+                    max-height: 700px;
                     border-radius: 30px;
                     padding: 2rem 3rem;
                     position: relative;
                     display: flex;
                     flex-direction: column;
-                    gap: 1rem;
+                    gap: 1.5rem;
                     overflow-y: auto;
                     .header{
                         display: flex;
                         align-items: center;
+                        gap: 2rem;
                         h1{
-                            font-size: 2rem;
+                            font-size: 1.5rem;
                             color: black;
+                        }
+                        svg{
+                           scale: 0.8;
+                        }
+                        @media (max-width: 600px) {
+                            h1{
+                                font-size: 1.5rem;
+                            }
+                            svg{
+                                scale: 0.6;
+                            }
+                            gap: 1rem;
+                        }
+                        @media (max-width: 320px) {
+                            h1{
+                                font-size: 1rem;
+                            }
+                            svg{
+                                scale: 0.5;
+                            }
+                            gap: 0;
                         }
                     }
                     .modalBody{
                         overflow-y: auto;
+                        color: black;
                         > div {
                             display: flex;
                             flex-direction: column;
@@ -100,38 +125,32 @@ export const ModalStyle = styled.div`
                             background-color: #9e9e9e;
                             border-radius: 30px;
                         }
+                        @media (max-width: 600px) {
+                                font-size:.8rem;
+                        }
+                    }
+                    @media (max-width: 600px) {
+                        gap: 1rem;
                     }
                 }
             }
         }
         @media (max-width: 768px) {
                 width: 70%;
-                height: 60%;
                 .content{
                     .container{
                         .containerCard{
                             padding: 1rem;
-                            .header{
-                                h1{
-                                    font-size: 1.5rem;
-                                }
-                            }
                         }
                     }
                 }
         }
         @media (max-width: 600px) {
                 width: 90%;
-                max-height: 50%;
                 .content{
                     .container{    
                         .containerCard{
                             padding: 1rem;
-                            .header{
-                                h1{
-                                    font-size: 1.5rem;
-                                }
-                            }
                         }
                     }
                 }

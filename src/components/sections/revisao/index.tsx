@@ -3,11 +3,11 @@ import FundoCard from "../../../assets/img/fundo-card-servico.png"
 import ModalContent from "../../modal"
 import { useState } from "react"
 import { ServicosArray } from "../../../assets/utils/revisao"
-import { iService } from "../../../types/revisao"
+import { iRevisao } from "../../../types/revisao"
 
 const Revisao = () => {
     const [isOpenModal, setIsOpenModal] = useState(false)
-    const [items , setItems] = useState({} as iService);
+    const [items , setItems] = useState({} as iRevisao);
 
     return (
         <>
@@ -31,7 +31,7 @@ const Revisao = () => {
                     ))}
                 </div>
             </RevisaoStyle>
-            <ModalContent name={items.name} aria="ModalService" texto={items.text} isModalOpen={isOpenModal} setIsModalOpen={setIsOpenModal}/>
+            <ModalContent name={items.name} aria="ModalService" texto={items.texto} isModalOpen={isOpenModal} setIsModalOpen={setIsOpenModal}/>
         </>
     )
 }

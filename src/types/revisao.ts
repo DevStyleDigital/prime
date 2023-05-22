@@ -1,8 +1,8 @@
 import React from "react";
 
-export interface iService {
+export interface iRevisao {
     id: number;
-    name: string;
+    name: React.ReactNode;
     image: string;
-    text: React.ReactNode;
+    texto: React.ReactNode;
 }

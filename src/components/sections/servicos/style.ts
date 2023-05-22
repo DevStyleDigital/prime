@@ -10,21 +10,23 @@ export const ServiceStyle = styled.section`
     align-items: center;
     gap: 3rem;
     position: relative;
+    padding: 0 0 3rem 0;
     h1{
         font-weight: 700;
         font-size: 40px;
         color: #EFD500;
+        text-transform: uppercase;
     }
     .servicos {
         width: 70%;
         display: flex;
-        height: 100%;
+        height: fit-content;
         flex-wrap: wrap;
         justify-content: center;
         gap: 2rem;
         .card {
             width: 23%;
-            height: 45%;
+            height: auto;
             position: relative;
             img{
                 width: 100%;
@@ -39,6 +41,7 @@ export const ServiceStyle = styled.section`
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
+                gap: 1rem;
                 padding: 2rem;
                 align-items: center;
                 cursor: pointer;
@@ -47,9 +50,10 @@ export const ServiceStyle = styled.section`
                     font-weight: 700;
                     color: black;
                     text-align: center;
+                    
                 }
                 button{
-                    padding: .2rem 1.5rem;
+                    padding: .5rem 2rem;
                     background-color: black;
                     border: none;
                     border-radius: 15px;
@@ -61,11 +65,62 @@ export const ServiceStyle = styled.section`
                     font-family: 'Kanit', sans-serif;
                     cursor: pointer;
                     transition: all .5s;
+                    @media(max-width: 1140px){
+                        font-size: .8rem;
+                    }
+                    @media (max-width: 650px) {
+                        font-size: .8rem;
+                        padding: .2rem 1rem;
+                    }
+                    @media (max-width: 375px) {
+                        font-size: .6rem;
+                        padding: .2rem 1rem;
+                    }
                 }
                 &:hover button{
                     transform: scale(1.05);
                 }
+                @media(max-width: 1140px){
+                    padding: 1rem;
+                    svg{
+                        width: 40%;
+                    }
+                    h1{
+                        font-size: 1rem;
+                    }
+                }
+                @media (max-width: 650px) {
+                    h1{
+                        font-size: .8rem;
+                    }
+                }
+                @media (max-width: 320px){
+                    padding: 2rem 0;
+                } 
             }
+            @media (max-width: 880px) {
+                width: 30%;
+            }
+            @media (max-width: 650px) {
+                width: 45%;
+            }
+            @media (max-width: 320px){
+                width: 90%;
+            } 
         }
+        @media(max-width: 1440px){
+            width: 85%;
+        }
+        @media (max-width: 880px) {
+            width: 95%;
+            gap: 1rem;
+        }
+        @media (max-width: 650px) {
+            width: 97%;
+        }
+        @media (max-width: 320px){
+            flex-direction: column;
+            align-items: center;
+        } 
     }
 `;
