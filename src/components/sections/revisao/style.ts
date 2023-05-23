@@ -3,7 +3,6 @@ import { styled } from "styled-components";
 export const RevisaoStyle = styled.section`
     width: 100%;
     height: fit-content;
-    min-height: 70vh;
     background-color: #1F1F1F;
     padding: 3rem 0rem;
     display: flex;
