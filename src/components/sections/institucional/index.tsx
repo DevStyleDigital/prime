@@ -1,6 +1,6 @@
 import { InstitucionalStyle } from "./style";
 import fundoInstitucional from "../../../assets/img/institucional-1.jpg";
-import Fachada from "../../../assets/img/fachada.jpg";
+import Fachada from "../../../assets/img/Fachada.webp";
 const Institucional = () => {
   return (
     <InstitucionalStyle>
