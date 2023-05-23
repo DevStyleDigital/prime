@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const ArrowStyle = styled.button`
   width: 70px;
   height: 70px;
-  background-color: #1f1f1f;
+  background-color: white;
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
   position: fixed;
   top: 300px;
@@ -15,12 +15,12 @@ export const ArrowStyle = styled.button`
   align-items: center;
   gap: .2rem;
   border: 1px solid #efd500;
-  svg {
-    fill:#efd500;
+  svg path {
+    fill: #1f1f1f;
   }
   span {
       text-transform: uppercase;
-      color: #efd500;
+      color: #1f1f1f;
       font-size: 9px;
       text-align: center;
       font-weight: bold;
@@ -34,7 +34,7 @@ export const ArrowStyle = styled.button`
 export const WhatsappStyle = styled.div`
   width: 110px;
   height: 120px;
-  background-color: #1f1f1f;
+  background-color: white;
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
   position: fixed;
   top: 300px;
@@ -53,15 +53,17 @@ export const WhatsappStyle = styled.div`
     justify-content: space-around;
     span {
       text-transform: uppercase;
-      color: #efd500;
+      color: #1f1f1f;
       font-size: 11px;
       text-align: center;
       font-weight: bold;
       line-height: 15px;
     }
     svg {
-      fill: #efd500;
       transform: scale(1.2);
+    }
+    svg path {
+      fill: #1f1f1f;
     }
   }
   @media (min-width: 768px) {
