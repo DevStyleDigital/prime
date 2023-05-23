@@ -10,7 +10,7 @@ export const ServiceStyle = styled.section`
     align-items: center;
     gap: 3rem;
     position: relative;
-    padding: 1rem 0 3rem 0;
+    padding: 0 0 3rem 0;
     h1{
         font-weight: 700;
         font-size: 40px;
@@ -126,5 +126,9 @@ export const ServiceStyle = styled.section`
             flex-direction: column;
             align-items: center;
         } 
+    }
+
+    @media (max-width: 600px) {
+        padding: 2rem 0 0 0;
     }
 `;
