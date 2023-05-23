@@ -15,11 +15,11 @@ export const VideoStyle = styled.section`
         display: flex;
         justify-content: center;
         iframe {
-            width: 90%;
+            width: 75%;
             height: 100%;
             border: none;
             @media (max-width: 1440px){
-                width: 80%;
+                width: 70%;
             }
             @media (max-width: 768px){
                 width: 90%;
