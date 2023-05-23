@@ -7,26 +7,28 @@ const Institucional = () => {
       <img src={fundoInstitucional} alt="fundo" />
       <div className="wrapper">
         <div className="content">
-            <div className="image">
-                <img src={Fachada} alt="fachada" />
-            </div>
-            <div className="text">
-                <h1>Prime Moto Peças</h1>
-                <span>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Iaculis
-                    at erat pellentesque adipiscing commodo. Lectus arcu bibendum at
-                    varius vel pharetra vel turpis. Sed nisi lacus sed viverra tellus
-                    in. Mauris cursus mattis molestie a iaculis at erat pellentesque
-                    adipiscing. Pellentesque dignissim enim sit amet venenatis urna.
-                    Morbi enim nunc faucibus a pellentesque. Pretium viverra suspendisse
-                    potenti nullam ac tortor. Lacus sed viverra tellus in hac. Facilisis
-                    magna etiam tempor orci eu. Suscipit adipiscing bibendum est
-                    ultricies integer quis auctor elit. Volutpat maecenas volutpat
-                    blandit aliquam. Adipiscing at in tellus integer feugiat scelerisque
-                    varius morbi enim. Metus aliquam eleifend mi in nulla.
-                </span>
-            </div>
+          <div className="image">
+            <img src={Fachada} alt="fachada" />
+          </div>
+          <div className="text">
+            <h1>Prime Moto Peças</h1>
+            <span>
+              <p>
+                A Prime é uma empresa especializada em serviços para motos em
+                Sorocaba, oferecendo uma ampla variedade de opções para todos os
+                tipos e estilos, tanto motos nacionais quanto importadas. Nossa
+                equipe está preparada para cuidar e entregar sua moto pronta
+                para rodar mais milhares de km!
+              </p>
+              <p>
+                Com um portfólio abrangente, oferecemos serviços de reparos e
+                prevenções para que motoqueiros e motociclistas tenham total
+                conforto e segurança sempre que precisarem de nós, seja na
+                oficina ou com acessórios.
+              </p>
+              <p>Nossa missão é oferecer uma experiência de excelência para todos os tipos de apaixonados pelas duas rodas.</p>
+            </span>
+          </div>
         </div>
       </div>
     </InstitucionalStyle>

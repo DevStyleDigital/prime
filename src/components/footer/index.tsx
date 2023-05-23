@@ -24,8 +24,10 @@ const Footer = () =>{
                             <WhatsappIcon />
                             Compre pelo Whatsapp
                         </a>
-                        <FacebookIcon />
-                        <Instagram />
+                        <div className="content">
+                            <FacebookIcon />
+                            <Instagram />
+                        </div>
                     </div>
                     <Pattern />
                 </div>

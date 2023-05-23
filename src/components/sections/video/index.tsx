@@ -5,7 +5,7 @@ const Video = () => {
     <VideoStyle>
       <div className="video">
         <iframe
-          src="https://www.youtube.com/embed/BZyq7QnwgWM"
+          src="https://www.youtube.com/embed/2ZCrwlTouGE"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen

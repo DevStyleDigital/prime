@@ -84,6 +84,11 @@ export const FooterStyle = styled.section`
         svg {
           cursor: pointer;
         }
+
+        .content {
+            display: flex;
+            gap: 1rem;
+          }
         @media (max-width: 870px) {
           flex-direction: column;
         }
