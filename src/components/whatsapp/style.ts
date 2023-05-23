@@ -33,7 +33,7 @@ export const ArrowStyle = styled.button`
 
 export const WhatsappStyle = styled.div`
   width: 110px;
-  height: 130px;
+  height: 120px;
   background-color: #1f1f1f;
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
   position: fixed;

@@ -13,8 +13,12 @@ const Header = () => {
                     <WhatsappIcon />
                     Compre pelo Whatsapp
                 </a>
-                <FacebookIcon />
-                <Instagram />
+                <a href="https://www.facebook.com/primemotopecasoficial?mibextid=LQQJ4d" target='blank'>
+                    <FacebookIcon />
+                </a>
+                <a href="https://instagram.com/primemotopecasoficial?igshid=MmJiY2I4NDBkZg==" target='blank'>
+                    <Instagram />
+                </a>
             </div>
         </HeaderStyle>
     )
