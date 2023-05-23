@@ -10,7 +10,7 @@ export const ServiceStyle = styled.section`
     align-items: center;
     gap: 3rem;
     position: relative;
-    padding: 0 0 3rem 0;
+    padding: 1rem 0 3rem 0;
     h1{
         font-weight: 700;
         font-size: 40px;
