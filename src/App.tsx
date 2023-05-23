@@ -7,6 +7,8 @@ import Mapa from "./components/sections/mapa";
 import Revisao from "./components/sections/revisao"
 import ServiceSection from "./components/sections/servicos";
 import Video from "./components/sections/video";
+import WhatsappButton from "./components/whatsapp";
+import { useLayoutContext } from "./contexts/Layout/useLayoutContext";
 
  export const customStyles = {
   content: {
@@ -20,17 +22,21 @@ import Video from "./components/sections/video";
 };
 
 function App() {
+  const { setWhatsapp } = useLayoutContext();
   return (
     <>
-      <Header />
-      <Hero />
-      <Revisao />
-      <ServiceSection />
-      <Acessorios />
-      <Institucional />
-      <Video />
-      <Mapa />
-      <Footer />
+      <WhatsappButton />
+      <div onClick={() => setWhatsapp(false)}>
+        <Header />
+        <Hero />
+        <Revisao />
+        <ServiceSection />
+        <Acessorios />
+        <Institucional />
+        <Video />
+        <Mapa />
+        <Footer />
+      </div>
     </>
   )
 }

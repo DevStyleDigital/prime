@@ -20,7 +20,7 @@ const Footer = () =>{
                 </div>
                 <div className="icons">
                     <div className="buttons">
-                        <a className="whatsapp" href="https://api.whatsapp.com/send?phone=5515991343172">
+                        <a className="whatsapp" target='blank' href="https://api.whatsapp.com/send?phone=5515991343172">
                             <WhatsappIcon />
                             Compre pelo Whatsapp
                         </a>
