@@ -25,7 +25,7 @@ const WhatsappButton = () => {
       <WhatsappStyle ref={ButtonRef}>
         <a target='blank' href='https://api.whatsapp.com/send?phone=5515991343172'>
           <span>
-            Fale no Whatsapp
+            Compre pelo <br/> Whatsapp
           </span>
         <WhatsappSVG />
         </a>
