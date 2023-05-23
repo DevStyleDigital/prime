@@ -109,7 +109,7 @@ export const FooterStyle = styled.section`
   }
   .credit {
     width: 100%;
-    height: 8vh;
+    height: 6vh;
     display: flex;
     justify-content: center;
     align-items: center;
