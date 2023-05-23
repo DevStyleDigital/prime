@@ -52,6 +52,9 @@ export const InstitucionalStyle = styled.section`
         }
         span {
           width: 100%;
+          p{
+            margin-bottom: .6rem;
+          }
         }
         @media (max-width: 1440px) {
           h1 {
