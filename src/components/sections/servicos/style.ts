@@ -130,5 +130,6 @@ export const ServiceStyle = styled.section`
 
     @media (max-width: 600px) {
         padding: 2rem 0 0 0;
+        gap: 2rem;
     }
 `;
