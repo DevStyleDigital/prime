@@ -2,16 +2,16 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper";
 import { HeroStyle } from "./style";
-import Agenda from "../../assets/img/banners/desktop/Agende_o_seu_serviço.png"
-import Oleo from "../../assets/img/banners/desktop/Oleo.png"
-import Revisao from "../../assets/img/banners/desktop/Revisão_da_sua_Moto_.png"
-import Suporte from "../../assets/img/banners/desktop/Suporte_.png"
-import Tudo from "../../assets/img/banners/desktop/Tudo_Para_Sua_Moto.png"
-import AgendaMobile from "../../assets/img/banners/mobile/Agende_o_seu_serviço_400x600.png"
-import OleoMobile from "../../assets/img/banners/mobile/Oleo400x600.png"
-import RevisaoMobile from "../../assets/img/banners/mobile/Revisão_da_sua_Moto_400x600.png"
-import SuporteMobile from "../../assets/img/banners/mobile/Suporte_400x600.png"
-import TudoMobile from "../../assets/img/banners/mobile/Tudo_Para_Sua_Moto_400x600.png"
+import Agenda from "../../assets/img/banners/desktop/AnyConv.com__Agende o seu serviço.webp"
+import Oleo from "../../assets/img/banners/desktop/AnyConv.com__Oleo.webp"
+import Revisao from "../../assets/img/banners/desktop/AnyConv.com__Revisão da sua Moto_.webp"
+import Suporte from "../../assets/img/banners/desktop/AnyConv.com__Tudo_Para_Sua_Moto.webp"
+import Tudo from "../../assets/img/banners/desktop/AnyConv.com__Tudo_Para_Sua_Moto.webp"
+import AgendaMobile from "../../assets/img/banners/mobile/AnyConv.com__Agende o seu serviço 400x600.webp"
+import OleoMobile from "../../assets/img/banners/mobile/AnyConv.com__Oleo400x600.webp"
+import RevisaoMobile from "../../assets/img/banners/mobile/AnyConv.com__Revisão da sua Moto 400x600.webp"
+import SuporteMobile from "../../assets/img/banners/mobile/AnyConv.com__Suporte 400x600.webp"
+import TudoMobile from "../../assets/img/banners/mobile/AnyConv.com__Tudo_Para_Sua_Moto 400x600.webp"
 
 const Hero = () => {
     return (
