@@ -13,8 +13,8 @@ const Footer = () =>{
                 <div className="logo">
                     <img src={Logo} alt="logo" />
                     <div className="text">
-                        <span>Rua Francisco Paulo Braio, 39 
-                            <br />  Jd Belvedere • Sorocaba/SP</span>
+                        <span>R. Francisco Paulo Braion, 39 
+                            <br />Jardim Guadalajara • Sorocaba/SP</span>
                         <h1>15 99134.3172</h1>
                     </div>
                 </div>
