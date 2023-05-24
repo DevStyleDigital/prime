@@ -21,7 +21,6 @@ export const ServicosArray: iRevisao[] = [
         image: MotoPremium,
         texto: 
         <div>
-            <h1>REVISÃO (PREMIUM) – 200/300 – INJETADA – MÃO DE OBRA</h1>
             <ul>
                 <li>- Limpeza de bico de injeção e tbi (corpo de injeção) ou carburador (carburadas)</li>
                 <li>- Pastilhamento de cabeçote</li>
