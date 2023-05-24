@@ -37,7 +37,7 @@ const Footer = () =>{
                 </div>
             </div>
             <div className="credit">
-                <a href="/">Intelligence by Core.Ag</a>
+                <a href="https://coreag.com.br/" target='blank'>Intelligence by Core.Ag</a>
             </div>
         </FooterStyle>
     )
