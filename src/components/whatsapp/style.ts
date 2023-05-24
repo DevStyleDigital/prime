@@ -6,7 +6,7 @@ export const ArrowStyle = styled.button`
   background-color: #1f1f1f;
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
   position: fixed;
-  top: 280px;
+  top: 300px;
   right: 0;
   z-index: 99;
   display: flex;
