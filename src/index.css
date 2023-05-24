@@ -38,7 +38,7 @@ img {
     font-size: 40px;
   }
   .swiper-button-next {
-    right:  2rem !important;
+    right:  1rem !important;
   }
 
   .swiper-button-prev::after {
@@ -46,7 +46,7 @@ img {
   }
   
   .swiper-button-prev {
-    left:  2rem !important;
+    left:  1rem !important;
   }
 }
 

@@ -2,7 +2,7 @@ import { styled } from "styled-components";
 
 export const HeroStyle = styled.section`
   width: 100%;
-  height: 70vh;
+  height:100%;
   background-color: #1f1f1f;
   box-shadow: 0 0px 10px black;
   position: relative;
@@ -15,5 +15,19 @@ export const HeroStyle = styled.section`
       height: 100%;
       object-fit: cover;
     }
+    .mobile{
+      display: none;
+    }
+     @media (max-width:768px){
+       .mobile{
+         display: block;
+       }
+      .desk{
+        display: none;
+      }
+     }
+  }
+  @media (max-width:768px){
+    height: 80vh;
   }
 `;
