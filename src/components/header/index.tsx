@@ -7,7 +7,7 @@ import Instagram from "../../assets/svg/instagram"
 const Header = () => {
     return (
         <HeaderStyle>
-            <img src={Logo} alt="logo" />
+            <img src={Logo} alt="logo" className="logo-svg" />
             <div className="buttons">
                 <a className="whatsapp" target='blank' href="https://api.whatsapp.com/send?phone=5515991343172">
                     <WhatsappIcon />

@@ -13,6 +13,10 @@ export const HeaderStyle = styled.header`
   left: 0;
   z-index: 60;
   box-shadow: 0 0px 10px black;
+  .logo-svg {
+    scale: 1.4;
+  }
+
   .buttons {
     display: flex;
     align-items: center;
@@ -75,6 +79,9 @@ export const HeaderStyle = styled.header`
     }
   }
   @media (max-width: 550px) {
+    .logo-svg {
+      scale: 1.2;
+    }
     padding: 1rem 1rem;
   }
 `;
