@@ -1,6 +1,6 @@
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Navigation } from "swiper";
+import { Pagination, Navigation, Autoplay } from "swiper";
 import { HeroStyle } from "./style";
 import Agenda from "../../assets/img/banners/desktop/AnyConv.com__Agende o seu serviço.webp"
 import Capacete from "../../assets/img/banners/desktop/Oferta-capacete.jpg"
@@ -19,7 +19,11 @@ const Hero = () => {
             <Swiper
                 pagination={true}
                 navigation={true}
-                modules={[Pagination, Navigation]}
+                modules={[Pagination, Navigation, Autoplay]}
+                autoplay={{
+                    delay: 4000,
+                    disableOnInteraction: false,
+                }}
                 className="mySwiper"
             >
                 <SwiperSlide>
